@@ -41,6 +41,24 @@ const vue_app = Vue.createApp({
     },
       methods: {
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
+            getMonthText(dateArray) {
+                  
+            },
+            like(index) {
+
+            },
+            dislike(index) {
+
+            },
+            like(index) {
+
+            },
+            posterClick(index) {
+
+            },
+            timeText(minutes) {
+
+            },
       }
 })
 
