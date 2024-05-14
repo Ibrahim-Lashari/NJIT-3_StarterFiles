@@ -90,7 +90,15 @@ const vue_app = Vue.createApp({
     },
     like(index) {},
     dislike(index) {},
-    posterClick(index) {},
+    posterClick(index) {
+      this.movies[index].posterindex++;
+      if(this.movies[index].posterindex >= this.movies[index].posters.length){
+            this.movies[index].posterindex = 0;
+      }
+      else{
+            this.movies[index].posterindex++
+      }
+    },
     timeText(minutes) {},
   },
 });
