@@ -88,8 +88,6 @@ const vue_app = Vue.createApp({
       }
       return month + " " + day + ", " + year;
     },
-    like(index) {},
-    dislike(index) {},
     posterClick(index) {
       if (this.movies[index].posterindex > this.movies[index].posters.length - 2) {
         this.movies[index].posterindex = 0
@@ -97,7 +95,11 @@ const vue_app = Vue.createApp({
         this.movies[index].posterindex++
       }
     },
-    timeText(minutes) {},
+    timeText(minute) {
+      let hours = Math.floor(minute / 60)
+      let minutes = minute % 60
+      return hours + 'h ' + minutes + 'm '
+    },
   },
 });
 
