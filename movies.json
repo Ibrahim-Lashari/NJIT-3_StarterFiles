@@ -68,5 +68,47 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      },
+      {
+            "title": "Real Steel",
+            "iscore": 7.1,
+            "rating": "PG-13",
+            "runtime": 127,
+            "released": [2011, 10, 7],
+            "country": "USA",
+            "posters": ["https://m.media-amazon.com/images/I/91RkoVP3syL._AC_UF894,1000_QL80_.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0433035/",
+            "website": "https://www.uphe.com/schindlers-list",
+            "likes": 850,
+            "dislikes": 300,
+            "posterindex": 0
+      },
+      {
+            "title": "Spider-man 2",
+            "iscore": 7.5,
+            "rating": "PG-13",
+            "runtime": 127,
+            "released": [2004, 6, 30],
+            "country": "USA",
+            "posters": ["https://hollywoodposters.com/wp-content/uploads/2023/04/SpiderManSacAdvOS.jpg", "https://www.iceposter.com/thumbs/MOV_304eda59_b.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0433035/",
+            "website": "https://www.uphe.com/schindlers-list",
+            "likes": 850,
+            "dislikes": 300,
+            "posterindex": 0
+      },
+      {
+            "title": "The Hangover",
+            "iscore": 7.7,
+            "rating": "R",
+            "runtime": 100,
+            "released": [2009, 6, 5],
+            "country": "USA",
+            "posters": ["https://m.media-amazon.com/images/M/MV5BNGQwZjg5YmYtY2VkNC00NzliLTljYTctNzI5NmU3MjE2ODQzXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg", "https://m.media-amazon.com/images/I/810-lQCEXRL._AC_UF894,1000_QL80_.jpg"],
+            "imdb": "https://www.imdb.com/title/tt1119646/",
+            "website": "https://www.uphe.com/schindlers-list",
+            "likes": 1200,
+            "dislikes": 400,
+            "posterindex": 0
       }
 ]
